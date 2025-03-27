@@ -1,0 +1,35 @@
+;*** MakeCAB Directive file;
+.OPTION EXPLICIT
+.Set CabinetNameTemplate="latestICLS.cab"
+.Set DiskDirectory1="C:\Users\marshallthorne\Downloads\ICLSCabFiles"
+.Set MaxDiskSize=0
+.Set Cabinet=on
+.Set Compress=on
+.Set CompressionType=MSZIP
+
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\iclsClient.cat" "iclsClient.cat"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\iclsClient.inf" "iclsClient.inf"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\conf\cacert.pem" "conf\cacert.pem"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\conf\epid2_paramcert.dat" "conf\epid2_paramcert.dat"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\conf\EPIDGroupCertLegacy.cer" "conf\EPIDGroupCertLegacy.cer"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\conf\EPIDGroupCertX509.cer" "conf\EPIDGroupCertX509.cer"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\conf\epid_paramcert.dat" "conf\epid_paramcert.dat"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\conf\iclsProxy.conf" "conf\iclsProxy.conf"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\Documents\development_tools.txt" "Documents\development_tools.txt"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\Documents\License.txt" "Documents\License.txt"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\Documents\Readme.txt" "Documents\Readme.txt"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\Documents\redist.txt" "Documents\redist.txt"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\Documents\Third Party Licenses.txt" "Documents\Third Party Licenses.txt"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\concrt140.dll" "lib\concrt140.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\iclsClient.dll" "lib\iclsClient.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\iclsClientInternal.dll" "lib\iclsClientInternal.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\iclsProxy.dll" "lib\iclsProxy.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\iclsProxyInternal.dll" "lib\iclsProxyInternal.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\IntelPTTEKRecertification.exe" "lib\IntelPTTEKRecertification.exe"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\libcrypto-3-x64.dll" "lib\libcrypto-3-x64.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\libssl-3-x64.dll" "lib\libssl-3-x64.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\msvcp140.dll" "lib\msvcp140.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\PlatformLicenseManagerService.exe" "lib\PlatformLicenseManagerService.exe"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\TPMProvisioningService.exe" "lib\TPMProvisioningService.exe"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\vcruntime140.dll" "lib\vcruntime140.dll"
+"C:\Users\marshallthorne\OneDrive - Inspire Medical Systems\Documents\Dev\Scripts\ICLSFiles\iclsclient.inf_amd64_c25dbc60ad3b371a\lib\vcruntime140_1.dll" "lib\vcruntime140_1.dll"
